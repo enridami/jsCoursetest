@@ -19,3 +19,9 @@ function checkCountValue() {
     alert("llegaste a 30 segui asiii");
   }
 }
+
+function resetCount(){
+    document.getElementById('countDisplay').innerHTML= 0;
+    count = 0;
+    alert("Se ha restablecido el recuento a 0");
+}
